@@ -41,7 +41,7 @@ export function ChatInput({ value, onChange, onSend }: ChatInputProps) {
   }, []);
 
   return (
-    <div className="flex w-full max-w-[600px] flex-col gap-4 rounded-2xl border-[0.5px] border-[var(--neutral-400)] bg-white p-4 shadow-[0px_1px_2px_rgba(0,0,0,0.05)]">
+    <div className="flex w-full max-w-[600px] flex-col gap-4 rounded-2xl bg-[var(--neutral-100)] p-4">
       <textarea
         ref={textareaRef}
         value={value}
